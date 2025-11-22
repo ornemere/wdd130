@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | Personal Homepage</title>
+
     <!-- W02 -->
     <meta name="description"
         content="Ornella Meregone — WDD130 Home Page. Course work, profile and weekly assignments.">
     <meta name="author" content="Ornella Meregone">
 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- W02 -->
-    <aside>
+
+    <!-- NAV BAR (W03 requirement) -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+    </nav>
+
+    <!-- ASIDE (Already existing, just keeps class box) -->
+    <aside class="box">
         <h2>Argentina</h2>
-        <img src="images/argentina-flag-200.png" alt="Argentina flag and landscape">
+        <img src="images/profile.png" alt="My profile picture" class="profile">
         <p>
             I live in Argentina, a country known for its beautiful variety of landscapes—from the glaciers in the south
             to the warm subtropical forests in the north.
@@ -28,7 +38,28 @@
         </p>
     </aside>
 
-    <img src="images/salt-lake-temple.jpg" alt="The Salt Lake Temple.">
+    <!-- MAIN + TEMPLE LIST (W03 requirement) -->
+    <main>
+        <h2>My Favorite Temples</h2>
+
+        <ul class="box">
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng"
+                    target="_blank">Buenos Aires Argentina Temple</a>
+            </li>
+
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng"
+                    target="_blank">Córdoba Argentina Temple</a>
+            </li>
+
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/salta-argentina-temple?lang=eng"
+                    target="_blank">Salta Argentina Temple</a>
+            </li>
+        </ul>
+    </main>
+
 </body>
 
 </html>
