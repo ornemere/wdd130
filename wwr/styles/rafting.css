@@ -221,11 +221,6 @@ footer p {
     text-align: center;
 }
 
-.contact-info iframe {
-    display: block;
-    margin-top: 20px;
-}
-
 .employee-gallery {
     display: flex;
     justify-content: space-around;
